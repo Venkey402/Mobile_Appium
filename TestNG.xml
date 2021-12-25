@@ -2,7 +2,12 @@
 <suite name = "Suite : Appium">
 	<test name ="test : Appium">
 		<classes>
-			<class name = "com.Appium.Testcases.TC_Calculator_001"/>	
+			<class name = "com.Appium.Testcases.TC_Dialer_002">
+				<parameter name="AppName" value ="Dialer"/>
+			</class>
+			<class name = "com.Appium.Testcases.TC_Calculator_001">
+				<parameter name="AppName" value ="Calculator"/>
+			</class>				
 		</classes>
 	</test>
 </suite>

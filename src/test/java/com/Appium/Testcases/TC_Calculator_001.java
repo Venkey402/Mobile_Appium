@@ -1,10 +1,11 @@
 package com.Appium.Testcases;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import com.Appium.BaseClass.BaseClass;
-import com.Appium.PageObjects.HomePage;
+import com.Appium.PageObjects.Calculator_HomePage;
 import junit.framework.Assert;
 
 public class TC_Calculator_001 extends BaseClass{
@@ -12,7 +13,7 @@ public class TC_Calculator_001 extends BaseClass{
 	@Test
 	public void ValidateAdditionOf7and8() throws InterruptedException{
 		
-		HomePage hp = new HomePage(driver);	
+		Calculator_HomePage hp = new Calculator_HomePage(driver);	
 		String Expected_Sum="15";		
 		
 		hp.PressSeven();
@@ -35,7 +36,7 @@ public class TC_Calculator_001 extends BaseClass{
 	@Test
 	public void ValidateMultiplicationOf9and8() throws InterruptedException{
 		
-		HomePage hp = new HomePage(driver);	
+		Calculator_HomePage hp = new Calculator_HomePage(driver);	
 		String Expected_Sum="72";		
 		
 		hp.PressNine();

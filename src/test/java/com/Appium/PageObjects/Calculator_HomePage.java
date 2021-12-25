@@ -7,11 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class HomePage {
+public class Calculator_HomePage {
 	
 	AndroidDriver<WebElement> driver;
 
-	public HomePage(AndroidDriver<WebElement> driver)
+	public Calculator_HomePage(AndroidDriver<WebElement> driver)
 	{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

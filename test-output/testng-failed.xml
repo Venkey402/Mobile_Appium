@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite : Appium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test : Appium(failed)">
+    <classes>
+      <class name="com.Appium.Testcases.TC_Calculator_001">
+        <methods>
+          <include name="ValidateAdditionOf7and8"/>
+          <include name="ValidateMultiplicationOf9and8"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.Appium.Testcases.TC_Calculator_001 -->
+      <class name="com.Appium.Testcases.TC_Dialer_002">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="DailingANumber"/>
+        </methods>
+      </class> <!-- com.Appium.Testcases.TC_Dialer_002 -->
+    </classes>
+  </test> <!-- test : Appium(failed) -->
+</suite> <!-- Failed suite [Suite : Appium] -->

@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-25T10:45:04 IST" name="Default suite" finished-at="2021-12-25T10:45:13 IST" duration-ms="8843">
+  <suite started-at="2021-12-25T13:06:51 IST" name="Suite : Appium" finished-at="2021-12-25T13:07:39 IST" duration-ms="48843">
     <groups>
     </groups>
-    <test started-at="2021-12-25T10:45:04 IST" name="Default test" finished-at="2021-12-25T10:45:13 IST" duration-ms="8843">
+    <test started-at="2021-12-25T13:06:51 IST" name="test : Appium" finished-at="2021-12-25T13:07:39 IST" duration-ms="48843">
       <class name="com.Appium.Testcases.TC_Calculator_001">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@1e04fa0a]" started-at="2021-12-25T10:44:53 IST" name="Setup" finished-at="2021-12-25T10:45:04 IST" duration-ms="11157" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-25T13:07:07 IST" name="Setup" finished-at="2021-12-25T13:07:21 IST" duration-ms="13787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Calculator]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Add_Calculator()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@1e04fa0a]" started-at="2021-12-25T10:45:04 IST" name="Add_Calculator" finished-at="2021-12-25T10:45:13 IST" duration-ms="8804" status="PASS">
+        <test-method signature="ValidateAdditionOf7and8()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-25T13:07:21 IST" name="ValidateAdditionOf7and8" finished-at="2021-12-25T13:07:30 IST" duration-ms="9141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Add_Calculator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@1e04fa0a]" started-at="2021-12-25T10:45:13 IST" name="tearDown" finished-at="2021-12-25T10:45:14 IST" duration-ms="847" status="PASS">
+        </test-method> <!-- ValidateAdditionOf7and8 -->
+        <test-method signature="ValidateMultiplicationOf9and8()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-25T13:07:30 IST" name="ValidateMultiplicationOf9and8" finished-at="2021-12-25T13:07:38 IST" duration-ms="8141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMultiplicationOf9and8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-25T13:07:38 IST" name="tearDown" finished-at="2021-12-25T13:07:39 IST" duration-ms="1350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Appium.Testcases.TC_Calculator_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.Appium.Testcases.TC_Dialer_002">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-25T13:06:51 IST" name="Setup" finished-at="2021-12-25T13:07:06 IST" duration-ms="14993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dialer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DailingANumber()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-25T13:07:06 IST" name="DailingANumber" finished-at="2021-12-25T13:07:06 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DailingANumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-25T13:07:06 IST" name="tearDown" finished-at="2021-12-25T13:07:07 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Appium.Testcases.TC_Dialer_002 -->
+    </test> <!-- test : Appium -->
+  </suite> <!-- Suite : Appium -->
 </testng-results>

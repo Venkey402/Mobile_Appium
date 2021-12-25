@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Suite___Appium" class="show-methods passed suite-Suite___Appium"> (show)</a> <!-- show-methods passed suite-Suite___Appium -->
                     </span>
                     <div class="method-list-content passed suite-Suite___Appium">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite___Appium" title="com.Appium.Testcases.TC_Dialer_002" class="method navigator-link" hash-for-method="DailingANumber">DailingANumber</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite___Appium" title="com.Appium.Testcases.TC_Calculator_001" class="method navigator-link" hash-for-method="ValidateAdditionOf7and8">ValidateAdditionOf7and8</a> <!-- method navigator-link -->
@@ -129,21 +124,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite___Appium" class="panel Suite___Appium">
-          <div class="suite-Suite___Appium-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Appium.Testcases.TC_Dialer_002</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DailingANumber">
-                  </a> <!-- DailingANumber -->
-                  <span class="method-name">DailingANumber</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite___Appium-class-passed -->
           <div class="suite-Suite___Appium-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -175,15 +155,10 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite : Appium&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;test : Appium&quot;&gt;
+&lt;suite name=&quot;Suite : Appium&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test : Appium&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Appium.Testcases.TC_Dialer_002&quot;&gt;
-        &lt;parameter name=&quot;AppName&quot; value=&quot;Dialer&quot;/&gt;
-      &lt;/class&gt; &lt;!-- com.Appium.Testcases.TC_Dialer_002 --&gt;
-      &lt;class name=&quot;com.Appium.Testcases.TC_Calculator_001&quot;&gt;
-        &lt;parameter name=&quot;AppName&quot; value=&quot;Calculator&quot;/&gt;
-      &lt;/class&gt; &lt;!-- com.Appium.Testcases.TC_Calculator_001 --&gt;
+      &lt;class name=&quot;com.Appium.Testcases.TC_Calculator_001&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test : Appium --&gt;
 &lt;/suite&gt; &lt;!-- Suite : Appium --&gt;
@@ -197,7 +172,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">test : Appium (2 classes)</span>
+                <span class="test-name">test : Appium (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -223,24 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ValidateAdditionOf7and8')
 data.setCell(0, 2, 'com.Appium.Testcases.TC_Calculator_001')
-data.setCell(0, 3, 9141);
+data.setCell(0, 3, 8778);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ValidateMultiplicationOf9and8')
 data.setCell(1, 2, 'com.Appium.Testcases.TC_Calculator_001')
-data.setCell(1, 3, 8141);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'DailingANumber')
-data.setCell(2, 2, 'com.Appium.Testcases.TC_Dialer_002')
-data.setCell(2, 3, 9);
+data.setCell(1, 3, 7979);
 window.suiteTableData['Suite___Appium']= { tableData: data, tableDiv: 'times-div-Suite___Appium'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Suite___Appium">
               </div> <!-- times-div-Suite___Appium -->
             </div> <!-- times-div -->
@@ -266,38 +237,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Appium.Testcases.TC_Dialer_002</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Setup(Dialer)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">DailingANumber</span>
-                <span class="method-start">15007 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">15021 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.Appium.Testcases.TC_Calculator_001</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Setup(Calculator)</span>
-                <span class="method-start">16399 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-suite before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">ValidateAdditionOf7and8</span>
-                <span class="method-start">30186 ms</span>
+                <span class="method-start">10337 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateMultiplicationOf9and8</span>
-                <span class="method-start">39329 ms</span>
+                <span class="method-start">19116 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47471 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">27134 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
