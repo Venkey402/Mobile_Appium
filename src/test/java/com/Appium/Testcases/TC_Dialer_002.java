@@ -11,21 +11,39 @@ public class TC_Dialer_002 extends BaseClass{
 	{
 		Dialer_HomePage dhp = new Dialer_HomePage(driver);		
 		dhp.ClickContacts_Tab();
-		Thread.sleep(5000);
+		logger.info("Clicked on the contacts tab..");
+		Thread.sleep(2000);
+		logger.info("Waited for 2 secs..");
 		dhp.ClickDialPad();
+		logger.info("Clicked on the Dial pad..");
 		Thread.sleep(5000);
+		logger.info("Waited for 5 secs..");
 		dhp.PressNine();
+		logger.info("Pressed 9 in the dialer pad..");
 		dhp.PressZero();
+		logger.info("Pressed 0 in the dialer pad..");
 		dhp.PressThree();
+		logger.info("Pressed 3 in the dialer pad..");
 		dhp.PressZero();
+		logger.info("Pressed 0 in the dialer pad..");
 		dhp.PressOne();
+		logger.info("Pressed 1 in the dialer pad..");
 		dhp.PressNine();
+		logger.info("Pressed 9 in the dialer pad..");
 		dhp.PressSix();
+		logger.info("Pressed 6 in the dialer pad..");
 		dhp.PressNine();
+		logger.info("Pressed 9 in the dialer pad..");
 		dhp.PressZero();
+		logger.info("Pressed 0 in the dialer pad..");
 		dhp.PressSeven();
+		logger.info("Pressed 7 in the dialer pad..");
 		dhp.ClickDialerIcon();
-		dhp.btnEndCall();		
+		logger.info("Cliked on the dialer icon..");
+		Thread.sleep(3000);
+		logger.info("Waited for 3 secs..");
+		dhp.btnEndCall();	
+		logger.info("Cliked on the End call button..");
 	}
 	
 

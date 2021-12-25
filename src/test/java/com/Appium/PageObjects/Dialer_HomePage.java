@@ -38,8 +38,6 @@ public class Dialer_HomePage {
 	WebElement btnEndCall;
 	
 	
-	
-	
 	//2. Numbers
 	@FindBy(how=How.ID,using="com.android.dialer:id/zero")
 	WebElement Num_Zero;
