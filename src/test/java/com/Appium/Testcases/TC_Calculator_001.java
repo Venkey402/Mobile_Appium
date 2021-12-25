@@ -40,7 +40,7 @@ public class TC_Calculator_001 extends BaseClass{
 		
 		hp.PressNine();
 		logger.info("Pressing 9 in the calculator..");
-		hp.PressAdd();
+		hp.PressMultiply();
 		logger.info("Pressing * in the calculator..");
 		hp.PressEight();
 		logger.info("Pressing 8 in the calculator..");
