@@ -40,8 +40,8 @@ public class TC_Dialer_002 extends BaseClass{
 		logger.info("Pressed 7 in the dialer pad..");
 		dhp.ClickDialerIcon();
 		logger.info("Cliked on the dialer icon..");
-		Thread.sleep(3000);
-		logger.info("Waited for 3 secs..");
+		Thread.sleep(10000);
+		logger.info("Waited for 10 secs..");
 		dhp.btnEndCall();	
 		logger.info("Cliked on the End call button..");
 	}

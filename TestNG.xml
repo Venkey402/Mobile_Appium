@@ -5,9 +5,9 @@
 			<class name = "com.Appium.Testcases.TC_Dialer_002">
 				<parameter name="AppName" value ="Dialer"/>
 			</class>
-			<!-- <class name = "com.Appium.Testcases.TC_Calculator_001">
+			<class name = "com.Appium.Testcases.TC_Calculator_001">
 				<parameter name="AppName" value ="Calculator"/>
-			</class> -->
+			</class> 
 		</classes>
 	</test>
 </suite>

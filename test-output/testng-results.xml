@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-25T19:08:06 IST" name="Suite : Appium" finished-at="2021-12-25T19:08:42 IST" duration-ms="35454">
+  <suite started-at="2021-12-27T11:17:17 IST" name="Suite : Appium" finished-at="2021-12-27T11:18:29 IST" duration-ms="71459">
     <groups>
     </groups>
-    <test started-at="2021-12-25T19:08:06 IST" name="test : Appium" finished-at="2021-12-25T19:08:42 IST" duration-ms="35454">
+    <test started-at="2021-12-27T11:17:17 IST" name="test : Appium" finished-at="2021-12-27T11:18:29 IST" duration-ms="71459">
+      <class name="com.Appium.Testcases.TC_Calculator_001">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-27T11:17:59 IST" name="Setup" finished-at="2021-12-27T11:18:11 IST" duration-ms="12192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidateAdditionOf7and8()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-27T11:18:11 IST" name="ValidateAdditionOf7and8" finished-at="2021-12-27T11:18:20 IST" duration-ms="8883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAdditionOf7and8 -->
+        <test-method signature="ValidateMultiplicationOf9and8()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-27T11:18:20 IST" name="ValidateMultiplicationOf9and8" finished-at="2021-12-27T11:18:28 IST" duration-ms="7952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMultiplicationOf9and8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Calculator_001@5d7148e2]" started-at="2021-12-27T11:18:28 IST" name="tearDown" finished-at="2021-12-27T11:18:29 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Appium.Testcases.TC_Calculator_001 -->
       <class name="com.Appium.Testcases.TC_Dialer_002">
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@6cd28fa7]" started-at="2021-12-25T19:08:06 IST" name="Setup" finished-at="2021-12-25T19:08:20 IST" duration-ms="13322" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-27T11:17:17 IST" name="Setup" finished-at="2021-12-27T11:17:30 IST" duration-ms="13082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,26 +43,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="DailingANumber()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@6cd28fa7]" started-at="2021-12-25T19:08:20 IST" name="DailingANumber" finished-at="2021-12-25T19:08:40 IST" duration-ms="20730" status="FAIL">
+        <test-method signature="DailingANumber()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-27T11:17:30 IST" name="DailingANumber" finished-at="2021-12-27T11:17:58 IST" duration-ms="27581" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VENKATM3IN', ip: '192.168.215.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+System info: host: 'VENKATM3IN', ip: '192.168.58.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.android.dialer.app.Dial..., appPackage: com.android.dialer, automationName: Appium, databaseEnabled: false, desired: {appActivity: com.android.dialer.app.Dial..., appPackage: com.android.dialer, automationName: Appium, deviceName: Android Emulator, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 2e0dc9b5-fcf3-43e4-a5ae-b87f4aff3d01
+Session ID: ff9a39f1-f1ba-4958-9ac0-dc1ce8c69c71
 *** Element info: {Using=id, value=com.android.dialer:id/dialpad_floating_action_button}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VENKATM3IN', ip: '192.168.215.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+System info: host: 'VENKATM3IN', ip: '192.168.58.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.android.dialer.app.Dial..., appPackage: com.android.dialer, automationName: Appium, databaseEnabled: false, desired: {appActivity: com.android.dialer.app.Dial..., appPackage: com.android.dialer, automationName: Appium, deviceName: Android Emulator, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 2e0dc9b5-fcf3-43e4-a5ae-b87f4aff3d01
+Session ID: ff9a39f1-f1ba-4958-9ac0-dc1ce8c69c71
 *** Element info: {Using=id, value=com.android.dialer:id/dialpad_floating_action_button}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -105,7 +130,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DailingANumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@6cd28fa7]" started-at="2021-12-25T19:08:40 IST" name="tearDown" finished-at="2021-12-25T19:08:42 IST" duration-ms="1355" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Testcases.TC_Dialer_002@66d3eec0]" started-at="2021-12-27T11:17:58 IST" name="tearDown" finished-at="2021-12-27T11:17:59 IST" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
